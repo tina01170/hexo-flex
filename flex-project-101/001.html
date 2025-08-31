@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>並排卡片</title>
+    <style>
+      *, *::after, *::after {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      img{
+        max-width: 100%;
+        height:auto;
+      }
+      .wrap{
+        width:1296px;
+        margin: 0 auto;
+      }
+      .wrap-color{
+        background-color: #f5f5f5;
+      }
+      .content{
+        display: flex;
+        justify-content:space-between;
+        background-color: #3f5d45;;
+      }
+      .card{
+        width: 402px;
+        padding:2px 15px;
+        background-color: #fff;
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+      }
+      .card-body{
+        padding: 0 20px;
+      }
+      .card-title{
+        font-size: 20px;
+        margin: 20px 0;
+        color: #3f5d45;
+      }
+      .card-text{
+        font-size: 18px;
+        line-height: 1.6;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap wrap-color">
+      <main class="content">
+        <div class="card">
+          <img src="img/01.png" alt="標題一">
+          <div class="card-body">
+            <h2 class="card-title">為什麼一定要吃甜點</h2>
+            <p class="card-text">滾滾長江東逝水，浪花淘盡英雄。是非成敗轉頭空，青山依舊在，幾度夕陽紅。白髮漁樵江渚上，慣看秋月春風。一壺濁酒喜相逢，古今多少事，都付笑談中。</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="img/02.png" alt="標題二">
+          <div class="card-body">
+            <h2 class="card-title">為什麼一定要吃甜點</h2>
+            <p class="card-text">滾滾長江東逝水，浪花淘盡英雄。是非成敗轉頭空，青山依舊在，幾度夕陽紅。白髮漁樵江渚上，慣看秋月春風。一壺濁酒喜相逢，古今多少事，都付笑談中。</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="img/03.png" alt="標題三">
+          <div class="card-body">
+            <h2 class="card-title">為什麼一定要吃甜點</h2>
+            <p class="card-text">滾滾長江東逝水，浪花淘盡英雄。是非成敗轉頭空，青山依舊在，幾度夕陽紅。白髮漁樵江渚上，慣看秋月春風。一壺濁酒喜相逢，古今多少事，都付笑談中。</p>
+          </div>
+        </div>
+      </main>
+    </div>
+    
+
+    
+   
+  </body>
+</html>

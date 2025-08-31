@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <style>
+      *{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+      *, *::after, *::after {
+        box-sizing: border-box;
+      }      
+      .wrap{
+        width:980px;
+        margin: 0 auto;
+        padding:20px 0;
+        display:flex;
+      }
+      .aside{
+        width:300px;
+        text-align: center;
+        margin-right: 60px;
+      }
+      .aside h3{
+        background-color: #3f5d45;
+        color:#fff;
+        padding:10px 30px;
+      }
+      .menu li {
+        border: 1px solid #e0e0e0;
+      }
+      .menu li a{
+        display: block;
+        font-size: 20px;
+        font-weight: 500;
+        color:#3f5d45;
+        text-decoration: none;
+        /*height:70px;
+        line-height:70px;*/
+        padding: 16px 102px;
+      }
+      .menu li a:hover{
+        background-color:#eaf0ed;
+      }
+
+      .main{
+        width: 620px;
+        display:flex;
+        flex-wrap: wrap;
+        gap:20px
+      }
+      .item{
+        width: 300px;
+        /*padding: 0 10px;*/
+        margin: 0 0 30px;
+      }
+      .item img{
+        vertical-align: middle;
+      }
+      .item-body{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+      }
+      .item-title, .item-text {
+        font-size: 20px;
+        height:50px;
+        line-height: 50px;
+        text-align: center;
+      }
+      .item-title{
+        width: 65%;
+        border-left:1px solid #e0e0e0;
+        border-right:1px solid #e0e0e0;
+      }
+      .item-text{
+        width: 35%;
+        border-right:1px solid #e0e0e0;
+      }
+      .btn{
+        display: block;
+        padding:10px 30px;
+        text-align: center;
+        text-decoration: none;
+        color:#3f5d45;
+        background-color:#eaf0ed;
+        font-size: 18px;
+        font-weight: 700;
+      }
+
+    </style>
+  </head>
+  <body>
+    
+<div class="wrap">
+    <aside class="aside">
+      <h3>甜點類別</h3>
+      <ul class="menu">
+        <li><a href="">所有甜點</a></li>
+        <li><a href="">本日精選</a></li>
+        <li><a href="">人氣精選</a></li>
+        <li><a href="">新品上市</a></li>
+      </ul>
+    </aside>
+    <main class="main">
+      <div class="item">
+        <img src="images/pic1.png" alt="desert">
+        <div class="item-body">
+          <h2 class="item-title">焦糖甜甜圈</h2>
+          <p class="item-text">$600</p>
+        </div>
+        <a href=""class="btn">加入購物車</a>
+      </div>
+      <div class="item">
+        <img src="images/pic2.png" alt="desert">
+        <div class="item-body">
+          <h2 class="item-title">草莓蛋糕 </h2>
+          <p class="item-text">$450</p>
+        </div>
+        <a href=""class="btn">加入購物車</a>
+      </div>
+      <div class="item">
+        <img src="images/pic3.png" alt="desert">
+        <div class="item-body">
+          <h2 class="item-title">藍莓布丁</h2>
+          <p class="item-text">$450</p>
+        </div>
+        <a href=""class="btn">加入購物車</a>
+      </div>
+    </main>
+</div>
+    
+   
+  </body>
+</html>

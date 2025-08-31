@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <style>
+      *{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+      *, *::after, *::after {
+        box-sizing: border-box;
+      }      
+      .wrap{
+        /*width:1276px;*/
+        width:1100px;
+        margin: 0 auto;
+        display: flex;
+      }
+    
+      .aside{
+        width: 324px;
+        height: 812px;
+        background-color: #eaf0ed;
+      }
+      .aside{
+        
+      }
+      .aside .logo{
+        display: block;
+        margin-top: 100px;
+      }
+      .menu li {
+        text-align: center;
+        margin:20px 0;
+      }
+      .menu li a{
+        text-decoration: none;
+        color:#3f5d45;
+        font-size: 20px;
+      }
+      .main{
+        width: 776px;
+        height: 812px;
+        padding:64px 84px 12px;
+
+      }
+      .main h2, main p{
+        margin: 0 0 30px;
+      }
+      .pic{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 -5px;
+      }
+      .pic img{
+        width: 33.33%;
+        padding:5px;
+      }
+
+
+    </style>
+  </head>
+  <body>
+    
+    <div class="wrap">
+      <aside class="aside">
+        <h1>
+          <a href="" class="logo">
+            <img src="images/logo.png" alt="">
+          </a>
+        </h1>
+        <ul class="menu">
+          <li><a href="">回到首頁</a></li>
+          <li><a href="">關於我們</a></li>
+          <li><a href="">熱銷產品</a></li>
+          <li><a href="">購物車</a></li>
+        </ul>
+      </aside>
+      <main class="main">
+        <h2>靜思語</h2>
+        <p>陳昱如說，受困民眾均安但位處偏遠，待怪手等機具抵達排除障礙，預估最快可能要到明天清晨，因此目前先朝把民眾安全帶下山脫困為主，後續事宜待道路搶通後再行處理。
+        </p>
+        <p>陳昱如表示，目前還不清楚15名遊客何時上山，但高雄山區自清晨降下大雨，且在昨天及今天舉辦「2025首屆六龜山城拉力賽」活動帳篷也都被吹跑，天氣狀況不佳，再加上山路會因雨後泥濘提高風險，入山前應審慎評估天氣與環境條件。陳昱如說，過去七坑溫泉附近也曾發生民眾受困等狀況，「不能一直重複類似問題」，近期將找相關單位共同辦理會勘，可能需要研擬相關管制措施。
+        </p>
+        <div class="pic">
+          <img src="images/pic.png" alt="img">
+          <img src="images/pic.png" alt="img">
+          <img src="images/pic.png" alt="img">
+          <img src="images/pic.png" alt="img">
+          <img src="images/pic.png" alt="img">
+          <img src="images/pic.png" alt="img">
+        </div>
+      </main>
+
+    </div>
+    
+   
+  </body>
+</html>
